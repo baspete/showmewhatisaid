@@ -1,13 +1,18 @@
 
 var gulp = require('gulp'),
-    sass = require('gulp-sass')
-    connect = require('gulp-connect');
+    sass = require('gulp-sass'),
+    connect = require('gulp-connect'),
+    sourcemaps = require('gulp-sourcemaps'),
+    prefix = require('gulp-autoprefixer');
 
 gulp.task('sass', function () {
   gulp.src('./app/stylesheets/app.scss')
     .pipe(sass({
+      style: 'compact',
       includePaths: ['./app/jspm_packages/github/twbs/bootstrap-sass@3.3.5/assets/stylesheets/bootstrap/']
-    }).on('error', sass.logError))
+    })
+    .pipe(prefix('last 1 version', '> 1%', 'ie 8', 'ie 7'))
+    .on('error', sass.logError))
     .pipe(gulp.dest('./app/stylesheets'));
 });
 
@@ -31,4 +36,4 @@ gulp.task('watch', function () {
   gulp.watch(['./app/*.html'], ['html']);
 });
 
-gulp.task('default', ['connect', 'watch']);
+gulp.task('default', ['connect', 'sass:watch', 'watch']);
