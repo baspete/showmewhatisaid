@@ -1,0 +1,74 @@
+@import "_variables.scss";
+
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+.container {
+  padding-top: 80px;
+}
+
+.project-summary {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 2em;
+  border: 0.5em solid $gray-lighter;
+  border-radius: $border-radius-base;
+  max-width: 330px;
+  img {
+    filter: grayscale(100%);
+    width: 100%;
+  }
+  .caption {
+    position:absolute;
+    width:100%;
+    height:80px;
+    background-color: $gray-dark;
+    bottom:0px;
+    left:0px;
+    transition: all 200ms ease-in-out;
+    margin-bottom: -80px;
+    text-align: center;
+    padding: 0.5em 0 0;
+    color: $gray-lighter;
+    .title { text-transform: uppercase; font-weight:bold; margin-bottom: 0.5em; }
+    .description { font-size: 0.9em; }
+    .role { font-size: 0.9em; }
+  }
+}
+.project-summary:hover {
+  border-color: $gray-light;
+  .caption {
+    margin-bottom: 0px;
+  }
+  img {
+    filter: none;
+  }
+}
+
+.details {
+  .title {
+    font-size: 1.1em;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+  }
+  .description {
+    margin-bottom: 1em;
+  }
+  .screenshot {
+    margin-bottom: 1em;
+    img {
+      width: 100%;
+      max-width: 610px;
+    }
+  }
+  section {
+    max-width: 640px;
+    div:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+<div class="container">
+
+  <navbar></navbar>
+
+  <div class="details">
+
+    <section class="well center-block" ng-repeat="section in vm.sections">
+      <div class="title">{{section.title}}</div>
+      <div class="description">{{section.description}}</div>
+      <div class="screenshot" ng-repeat="image in section.images" ng-if="section.images">
+        <img ng-src="/projects/{{vm.id}}/{{image}}" />
+      </div>
+    </section>
+
+  </div>
+
+</div>

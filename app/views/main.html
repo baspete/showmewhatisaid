@@ -1,0 +1,20 @@
+<div class="container">
+
+  <navbar></navbar>
+
+  <div class="row-fluid">
+    <div class="col-sm-6 col-md-4" ng-repeat="project in vm.projects">
+      <div class="project-summary center-block">
+        <a ui-sref="detail({ id: project.id })">
+          <img ng-src="projects/{{project.id}}/thumbnail.png" alt="{{ project.id }}" />
+          <div class="caption">
+              <div class="title">{{ project.title }}</div>
+              <div class="description">{{project.description}}</div>
+              <div class="role">{{project.role}}</div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+</div>

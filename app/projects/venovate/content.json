@@ -1,0 +1,32 @@
+{
+  "id":"venovate",
+  "title":"Venovate",
+  "description":"Investing Platform",
+  "role":"Web / Mobile",
+  "sections": [
+    {
+      "title":"Client: Venovate",
+      "description":"I worked with financial services startup, Venovate on the first launch of their private equity investment platform.  The platform supports 3 applications for user roles; Entrepreneurs, Investors, and Venture Capital Firms."
+    },
+    {
+      "title": "The Starting Point",
+      "description": "The first activity was to work with the executive stakeholder team to get a picture of the business model and their overall vision for the products within the platform.",
+      "images": ["start1.png"]
+    },
+    {
+      "title": "Research & Analysis",
+      "description": "Next, I created a persona and story for each role.  These personas were developed with actual people who represented the target.  The roles required deep thinking around interaction scenarios and collaborative work sessions with the stakeholders.",
+      "images": ["research1.png"]
+    },
+    {
+      "title": "UX / UI / IA Design",
+      "description": "I then translated stakeholder ideas with my own ideas and the scenarios, into visually rich wireframe mockups.  The mockups were then scripted into click-through prototypes for stakeholder reviews and revision rounds.  The final click-through was scripted for user feedback sessions",
+      "images": ["design1.png","design2.png","design3.png","design4.png","design5.png","design6.png","design7.png","design8.png"]
+    },
+    {
+      "title": "User Feedback & Reporting",
+      "description": "I worked collaboratively with the team to create a screener and schedule participants for 2 of the roles for feedback sessions.  I conducted one-on-one sessions with the click-through prototype.  Post feedback activity, I designed a report for the executive team and an interaction specification for the design and development teams",
+      "images": ["feedback1.png"]
+    }
+  ]
+}
