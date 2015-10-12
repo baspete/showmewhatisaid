@@ -5,27 +5,26 @@ class MainController {
     this.isCollapsed = true;
 
     this.projects = [];
-    let clients = [
-      'venovate',
-      'venovate',
-      'venovate',
-      'venovate',
-      'venovate',
-      'venovate'
-    ];
 
-    angular.forEach(clients, (client) => {
-      $http.get('/projects/' + client + '/content.json')
-           .success((response) => {
-              this.projects.push({
-                id: client,
-                title: response.title,
-                description: response.description,
-                role: response.role,
-              });
-           });
-    });
+    $http.get('/projects/clients.json').success((response) => {
 
+        this.clients = response.clients;
+
+     }).then(() => {
+
+        angular.forEach(this.clients, (client) => {
+          $http.get('/projects/' + client + '/content.json')
+               .success((response) => {
+                  this.projects.push({
+                    id: client,
+                    title: response.title,
+                    description: response.description,
+                    role: response.role,
+                  });
+               });
+        });
+
+     });
   }
 
 }
