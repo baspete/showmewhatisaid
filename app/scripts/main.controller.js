@@ -12,17 +12,17 @@ class MainController {
 
      }).then(() => {
 
-        angular.forEach(this.clients, (client) => {
-          $http.get('/projects/' + client + '/content.json')
+        for(let i=0;i<this.clients.length;i++){
+          $http.get('/projects/' + this.clients[i] + '/content.json')
                .success((response) => {
                   this.projects.push({
-                    id: client,
+                    id: this.clients[i],
                     title: response.title,
                     description: response.description,
                     role: response.role,
                   });
                });
-        });
+        }
 
      });
   }

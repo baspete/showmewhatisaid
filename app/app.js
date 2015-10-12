@@ -22,7 +22,7 @@ angular.module('showmewhatisaid', ['ngAnimate', 'ngTouch', 'ngSanitize', 'ui.rou
         controllerAs: 'vm'
       })
       .state('detail', {
-        url: '/projects?:id',
+        url: '/projects/:id',
         templateUrl: 'views/detail.html',
         controller: 'DetailController',
         controllerAs: 'vm'
