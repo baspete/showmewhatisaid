@@ -2,7 +2,7 @@ language: node_js
 node_js:
   - "0.10"
 before_script:
-  - npm install gulp
+  - npm install gulp jspm
   - npm install
   - jspm install
 script: gulp
