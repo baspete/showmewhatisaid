@@ -1,5 +1,9 @@
 @import "_variables.scss";
 
+body {
+  background-image: url('../images/concrete_seamless.png')
+}
+
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
@@ -7,15 +11,33 @@
   padding: 0.2em 0;
 }
 
+.navbar-inverse {
+  font-family: Lucida Grande,Lucida Sans Unicode,Lucida Sans,Geneva,Verdana,sans-serif;
+  text-transform: uppercase;
+  background-color: #333;
+  .navbar-brand {
+    color: #FFF;
+    span {
+      color: #ff9900;
+      margin-left: 2em;
+    }
+  }
+  .navbar-nav>.active>a {
+    color: #ff9900;
+  }
+}
+
+
 .container {
   padding-top: 80px;
+  font-family: Lucida Grande,Lucida Sans Unicode,Lucida Sans,Geneva,Verdana,sans-serif;
 }
 
 .project-summary {
   position: relative;
   overflow: hidden;
   margin-bottom: 2em;
-  border: 0.5em solid $gray-lighter;
+  border: 0.5em solid #CCC;
   border-radius: $border-radius-base;
   max-width: 330px;
   img {
@@ -54,11 +76,12 @@
 .details {
   .title {
     font-size: 1.1em;
+    font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 1em;
   }
   .description {
-    margin-bottom: 1em;
+    margin-bottom: 1.5em;
   }
   .screenshot {
     margin-bottom: 1em;
