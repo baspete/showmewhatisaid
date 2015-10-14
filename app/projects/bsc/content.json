@@ -1,0 +1,7 @@
+{
+  "id":"bsc",
+  "title":"Blue Shield of California",
+  "description":"Provider Network",
+  "role":"Web",
+  "secure":true
+}

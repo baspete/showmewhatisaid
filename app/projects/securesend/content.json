@@ -1,0 +1,7 @@
+{
+  "id":"securesend",
+  "title":"Secure Send",
+  "description":"Secure File Sharing & Storage",
+  "role":"Web",
+  "secure":true
+}

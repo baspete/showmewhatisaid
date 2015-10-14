@@ -1,0 +1,27 @@
+{
+  "id":"adobe+leo",
+  "title":"Adobe",
+  "description":"Virtual Assistant",
+  "role":"Web / Mobile",
+  "sections": [
+    {
+      "title":"Client: Adobe Software",
+      "description":"I was hired to help a customer services team strategize around a project to improve methods of collecting user feedback, ala re-design feedback forms in various areas of Creative Cloud offering (Creative Cloud sign-up, installation, and applications).  The overall goal of the initiative was to make customer and user feedback contextually relevant to their place within the ecosystem (i.e. in an app or on adobe.com)"
+    },
+    {
+      "title": "The Starting Point",
+      "description": "I worked collaboratively with the stakeholders to comprehend primary and secondary goals for customers as well as internal team member users, so management roles might also interact with the feedback model to inform product updates and new product roll-outs.  The idea was to pair feedback with analytics for a complete Voice of the Customer representation.  I was given free-range to explore directions outside the standard feedback collection form and forum posts (Adobe’s current method for collecting user feedback).",
+      "images": ["start1.png"]
+    },
+    {
+      "title": "Research & Analysis",
+      "description": "After researching, experiencing and documenting  Adobe’s existing feedback collection models, as well as other industry models.  I then developed 2 target user profiles, (a non-creative pro novice, as well as a creative pro expert) both who might be new to Creative Cloud model and ecosystem.  I also researched multiple external industry sites and how they collected feedback.  I did multiple cognitive walk-throughs with participants to observe top-level issues, frustrations and pain points and how they might currently share their feedback.",
+      "images": ["research1.png"]
+    },
+    {
+      "title": "UX / UI / IA Design",
+      "description": "todo",
+      "images": ["design1.png"]
+    }
+  ]
+}

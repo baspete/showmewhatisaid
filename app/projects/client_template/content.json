@@ -1,0 +1,32 @@
+{
+  "id":"todo",
+  "title":"todo",
+  "description":"todo",
+  "role":"todo",
+  "sections": [
+    {
+      "title":"Client: todo",
+      "description":"todo"
+    },
+    {
+      "title": "The Starting Point",
+      "description": "todo",
+      "images": ["start1.png"]
+    },
+    {
+      "title": "Research & Analysis",
+      "description": "todo",
+      "images": ["research1.png"]
+    },
+    {
+      "title": "UX / UI / IA Design",
+      "description": "todo",
+      "images": ["design1.png"]
+    },
+    {
+      "title": "User Feedback & Reporting",
+      "description": "todo",
+      "images": ["feedback1.png"]
+    }
+  ]
+}

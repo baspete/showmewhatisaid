@@ -74,12 +74,6 @@ body {
 }
 
 .details {
-  .title {
-    font-size: 1.1em;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin-bottom: 1em;
-  }
   .description {
     margin-bottom: 1.5em;
   }
@@ -90,10 +84,17 @@ body {
       max-width: 610px;
     }
   }
-  section {
+}
+
+  .well {
+    .title {
+      font-size: 1.1em;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin-bottom: 1em;
+    }
     max-width: 640px;
     div:last-child {
       margin-bottom: 0;
     }
   }
-}

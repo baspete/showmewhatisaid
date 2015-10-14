@@ -1,13 +1,19 @@
 {
   "clients": [
+    "adobe+leo",
     "venovate",
-    "venovate",
-    "venovate",
-    "venovate",
-    "venovate",
-    "venovate",
-    "venovate",
-    "venovate",
-    "venovate"
+    "adobe+heuristic",
+    "mfoundry",
+    "802secure",
+    "bsc",
+    "givit",
+    "vuman",
+    "divx1",
+    "zecco",
+    "ebay",
+    "securesend",
+    "financialtimes",
+    "rhi",
+    "seyj"
   ]
 }
