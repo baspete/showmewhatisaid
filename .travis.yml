@@ -18,4 +18,4 @@ addons:
             - sshpass
 after_success:
     - export RSYNC_PASSWORD=$DEPLOY_PASS
-    - rsync -av app/ $DEPLOY_USER@$DEPLOY_HOST:$DEPLOY_PATH
+    - rsync -avz -e "ssh -o StrictHostKeyChecking=no -o app/ $DEPLOY_USER@$DEPLOY_HOST:$DEPLOY_PATH"
