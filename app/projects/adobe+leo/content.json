@@ -20,8 +20,21 @@
     },
     {
       "title": "UX / UI / IA Design",
-      "description": "todo",
-      "images": ["design1.png"]
+      "description": "Selected screenshots from this project:",
+      "images": [
+        "design1.png",
+        "design2.png",
+        "design3.png",
+        "design4.png",
+        "design5.png",
+        "design6.png",
+        "design7.png",
+        "design8.png",
+        "design9.png",
+        "design10.png",
+        "design11.png",
+        "design12.png"
+      ]
     }
   ]
 }
