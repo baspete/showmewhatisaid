@@ -36,4 +36,8 @@ gulp.task('watch', function () {
   gulp.watch(['./app/*.html'], ['html']);
 });
 
+gulp.task('dist', function(){
+  console.log('dist');
+});
+
 gulp.task('default', ['connect', 'sass:watch', 'watch']);
