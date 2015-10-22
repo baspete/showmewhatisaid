@@ -19,9 +19,21 @@
       "images": ["research1.png"]
     },
     {
+      "title": "More Research & Analysis",
+      "description": "I also conducted research throughout the initiative that included a deep dive into current artificial intelligence industry trends and leading company products. I reviewed applications that featured chatbots, virtual assistants and machine learning. I then  captured highlights about their features with screenshots and annotations regarding functionality and technology. I collected articles from a number of market research companies such as Forrester and Gartner and included quotations and industry insights focused on machine learning and self-assisted help as well as general projections about the field of AI.  I integrated all the research into a final report and delivered it with the final prototype.",
+      "images": ["research2.png","research3.png","research4.png"]
+    },
+    {
       "title": "UX / UI / IA Design",
-      "description": "Selected screenshots from this project:",
+      "description": "In this phase, I designed and presented a round of concepts that demonstrated how a user might interact with a assisted self-help application (similar to a chatbot), along with additional features that included archiving, gamefication, and the ability to integrate social gestures.<br/><br/>Initially, I named the bot \"Shout\", thinking that it would be an inviting name that would entice users to speak their minds and share feedback, i.e. \"shout out\" to Adobe to share rants, raves, ideas and ask questions while using a desktop application or viewing content on their site.  \"Shout\" was presented to many teams within Adobe and revised 3 times.  The basic model remained, but the branding moved to “Adobe Bot” and finally to \"Leo\".  The brand design for \"Leo\", as well as the look-n-feel, voice and model for interaction was simulated in a final click-through prototype.  The format was a conversational script that allowed us to gather feedback from participants who aligned with our target personas.",
       "images": [
+        "design_a.png",
+        "design_b.png",
+        "design_c.png",
+        "design_d.png",
+        "design_e.png",
+        "design_f.png",
+        "design_g.png",
         "design1.png",
         "design2.png",
         "design3.png",
@@ -35,6 +47,11 @@
         "design11.png",
         "design12.png"
       ]
+    },
+    {
+      "title": "User Feedback & Reporting",
+      "description": "The concepts for \"Leo\" were transitioned into a click-through prototype design (as shown above), and designed to demonstrate the user experience.  I wrote the introduction, instructional and conversational copy to simulate interaction with Leo.  The sequencing followed scenarios for both novice and expert user profiles.  I also wrote scripts for each one that simulated how each of the roles might interact with the application, following cases of initial discovery to in-app interaction and other areas of the app (archiving, points, account settings).<br/><br/>Since gathering feedback was the initial base for this project, I made sure to include designs that would demonstrate various ways that the application could collect user feedback.<br/><br/>Screener and participant recruiting was completed collaboratively with stakeholders.  I conducted the one-on-one feedback sessions with 14 participants in an hour-long session each.  After the sessions, I wrote a report that included the feedback with highlighted quotes and recommendations for all the areas of the prototype.",
+      "images": ["feedback1.png","feedback2.png","feedback3.png","feedback4.png","feedback5.png","feedback6.png"]
     }
   ]
 }
